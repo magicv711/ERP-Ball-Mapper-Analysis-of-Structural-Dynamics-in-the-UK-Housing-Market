@@ -37,6 +37,18 @@ We use **Topological Data Analysis (Mapper and Ball Mapper)**, together with tra
 - Period-difference variables: Crisis_0809_Diff, Stable_1516_Diff, Covid_2020_Diff.  
 - Raw data are not included due to size and licensing; please download from ONS or replace with your own.
 
+## Data Availability
+
+This repository includes **processed datasets** (standardized features and cleaned data) that can be directly used for Ball Mapper, heatmaps, and OLS analysis.  
+
+The **original raw datasets** are not included here due to size constraints. They can be downloaded from the following official sources:
+
+- [UK House Price Index (ONS)](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex)  
+- [ONS Regional Statistics](https://www.ons.gov.uk) (income, employment, education, population)  
+- [Nationwide Housing Market Review](https://www.nationwide.co.uk) (for supporting reference)
+
+If you wish to reproduce the results from scratch, please download the raw datasets from the above sources and run the preprocessing scripts in `preprocessing/`.
+
 
 ## How to Run
 
